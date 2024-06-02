@@ -1,0 +1,12 @@
+2024-06-02 20:46:53,354 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /fast
+2024-06-02 20:46:53,376 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /slow
+2024-06-02 20:46:55,676 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /slow
+2024-06-02 20:49:40,915 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /slow
+2024-06-02 20:49:43,874 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /slow
+2024-06-02 20:49:44,945 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /fast
+2024-06-02 20:49:51,833 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /slow
+2024-06-02 20:49:54,024 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /slow
+2024-06-02 20:49:55,656 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /fast
+2024-06-02 20:52:13,513 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /fast
+2024-06-02 20:52:13,518 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /fast
+2024-06-02 20:52:13,522 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /fast

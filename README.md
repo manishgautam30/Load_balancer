@@ -46,3 +46,31 @@
 - Run the main script to simulate requests and test the load balancer.
 - Check the `load_balancer.log` file for detailed logs.
 
+## Milestone 2: Queue Management and Analysis
+
+### Performance Analysis
+
+#### FIFO Queue
+
+- FIFO (First-In-First-Out) processes requests in the order they arrive.
+- Pros: Simple and predictable.
+- Cons: May lead to long wait times for high-priority requests.
+
+#### Priority Queue
+
+- Processes requests based on their priority.
+- Pros: High-priority requests are handled first.
+- Cons: Lower-priority requests may experience delays.
+
+#### Round Robin Queue
+
+- Distributes requests evenly across multiple queues.
+- Pros: Balances load evenly.
+- Cons: May not prioritize urgent requests effectively.
+
+### Analysis
+
+- **FIFO**: All requests were processed in the order they arrived. Suitable for environments where request order is critical.
+- **Priority**: High-priority requests were processed faster. Ideal for scenarios with varying request importance.
+- **Round Robin**: Requests were evenly distributed, reducing the risk of any single endpoint being overloaded. Effective for balancing load but may not be suitable for varying priority levels.
+

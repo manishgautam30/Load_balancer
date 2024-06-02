@@ -1,6 +1,8 @@
 # Load Balancer
 
-## Setup Instructions
+## Milestone 1: Design and Functionality
+
+### Setup Instructions
 
 1. **Clone the repository**:
     ```bash

@@ -1,7 +1,7 @@
 # src/load_balancer.py
 import random
 import logging
-from src.mock_apis import api_endpoints
+from api.mock_apis import api_endpoints
 from src.queue_manager import QueueManager
 
 class LoadBalancer:

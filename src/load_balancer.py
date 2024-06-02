@@ -2,10 +2,12 @@
 import random
 import logging
 from src.mock_apis import api_endpoints
+from src.queue_manager import QueueManager
 
 class LoadBalancer:
     def __init__(self):
         self.endpoints = api_endpoints
+        self.queue_manager = QueueManager()
 
     def route_request(self, request):
         # Example custom criteria routing logic
@@ -31,3 +33,22 @@ class LoadBalancer:
 
     def log_request(self, request, selected_endpoint):
         logging.info(f"Request: {request}, Routed to: {selected_endpoint}")
+
+    def add_request_to_queue(self, request, queue_type='fifo', priority=0):
+        if queue_type == 'fifo':
+            self.queue_manager.add_request_fifo(request)
+        elif queue_type == 'priority':
+            self.queue_manager.add_request_priority(request, priority)
+        elif queue_type == 'round_robin':
+            self.queue_manager.add_request_round_robin(request)
+        logging.info(f"Request added to {queue_type} queue: {request}")
+
+    def get_request_from_queue(self, queue_type='fifo'):
+        if queue_type == 'fifo':
+            return self.queue_manager.get_request_fifo()
+        elif queue_type == 'priority':
+            return self.queue_manager.get_request_priority()
+        elif queue_type == 'round_robin':
+            return self.queue_manager.get_request_round_robin()
+        return None
+

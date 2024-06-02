@@ -10,3 +10,57 @@
 2024-06-02 20:52:13,513 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /fast
 2024-06-02 20:52:13,518 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /fast
 2024-06-02 20:52:13,522 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /fast
+2024-06-02 21:23:10,903 - Request added to FIFO queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:10,903 - Request added to fifo queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:10,903 - Request added to Priority queue: {'type': 'REST', 'payload_size': 512}, Priority: 512
+2024-06-02 21:23:10,903 - Request added to priority queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:10,903 - Request added to Round Robin queue 0: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:10,903 - Request added to round_robin queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:10,903 - Request added to FIFO queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:10,903 - Request added to fifo queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:10,903 - Request added to Priority queue: {'type': 'REST', 'payload_size': 2048}, Priority: 2048
+2024-06-02 21:23:10,903 - Request added to priority queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:10,903 - Request added to Round Robin queue 1: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:10,903 - Request added to round_robin queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:10,903 - Request added to FIFO queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:10,903 - Request added to fifo queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:10,903 - Request added to Priority queue: {'type': 'gRPC', 'payload_size': 1024}, Priority: 1024
+2024-06-02 21:23:10,903 - Request added to priority queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:10,903 - Request added to Round Robin queue 2: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:10,903 - Request added to round_robin queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:10,903 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /fast
+2024-06-02 21:23:10,971 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /slow
+2024-06-02 21:23:13,248 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /slow
+2024-06-02 21:23:15,565 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /slow
+2024-06-02 21:23:18,541 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /slow
+2024-06-02 21:23:20,895 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /slow
+2024-06-02 21:23:23,587 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /fast
+2024-06-02 21:23:23,598 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /fast
+2024-06-02 21:23:23,608 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /slow
+2024-06-02 21:23:37,789 - Request added to FIFO queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:37,789 - Request added to fifo queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:37,789 - Request added to Priority queue: {'type': 'REST', 'payload_size': 512}, Priority: 512
+2024-06-02 21:23:37,789 - Request added to priority queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:37,789 - Request added to Round Robin queue 0: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:37,789 - Request added to round_robin queue: {'type': 'REST', 'payload_size': 512}
+2024-06-02 21:23:37,789 - Request added to FIFO queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:37,805 - Request added to fifo queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:37,805 - Request added to Priority queue: {'type': 'REST', 'payload_size': 2048}, Priority: 2048
+2024-06-02 21:23:37,805 - Request added to priority queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:37,805 - Request added to Round Robin queue 1: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:37,805 - Request added to round_robin queue: {'type': 'REST', 'payload_size': 2048}
+2024-06-02 21:23:37,805 - Request added to FIFO queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:37,805 - Request added to fifo queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:37,805 - Request added to Priority queue: {'type': 'gRPC', 'payload_size': 1024}, Priority: 1024
+2024-06-02 21:23:37,805 - Request added to priority queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:37,805 - Request added to Round Robin queue 2: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:37,805 - Request added to round_robin queue: {'type': 'gRPC', 'payload_size': 1024}
+2024-06-02 21:23:37,805 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /fast
+2024-06-02 21:23:37,809 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /slow
+2024-06-02 21:23:40,558 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /slow
+2024-06-02 21:23:42,122 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /slow
+2024-06-02 21:23:43,352 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /slow
+2024-06-02 21:23:45,018 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /fast
+2024-06-02 21:23:45,023 - Request: {'type': 'REST', 'payload_size': 512}, Routed to: /fast
+2024-06-02 21:23:45,027 - Request: {'type': 'REST', 'payload_size': 2048}, Routed to: /slow
+2024-06-02 21:23:47,050 - Request: {'type': 'gRPC', 'payload_size': 1024}, Routed to: /slow

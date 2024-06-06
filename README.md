@@ -74,3 +74,6 @@
 - **Priority**: High-priority requests were processed faster. Ideal for scenarios with varying request importance.
 - **Round Robin**: Requests were evenly distributed, reducing the risk of any single endpoint being overloaded. Effective for balancing load but may not be suitable for varying priority levels.
 
+## Link to Hosted application
+https://tarun-tailor-wasserstoff-backend-task.vercel.app/
+
